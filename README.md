@@ -2,11 +2,11 @@
 
 ## About the project
 This work is to implement a vanishing point detector which returns x,y image coordinates of the point from an input image. It involves some image processing algorithms; Canny edge detection, bilateral filter, Hough transform, and RANSAC. The used photographs are one-point perspective. They have a single vanishing point within the image plane.
-
 <br>
 
 ## Background
 In Computer Vision fields, identifying edges and lines on images are fundamental to solve advanced problems such as semantic segmentation and object detection. Road Lane line detection is one of the representative examples in line detection. 
+<br>
 
 ## Applied algorithms in order
 **The Canny edge detector** is an edge detection operator that uses a multi-stage algorithm to detect a wide range of edges in images [1] 
@@ -19,8 +19,11 @@ In Computer Vision fields, identifying edges and lines on images are fundamental
 
 
 The model performance is evaulated by a value of Mean Squared Euclidean Distance (MSED). 
-
 <br>
+
+## Version
+
+OpenCV 4.5.2
 
 ## References
 [1] https://en.wikipedia.org/wiki/Canny_edge_detector
